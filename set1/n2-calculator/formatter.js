@@ -3,7 +3,6 @@
 // Activity: N2 - Modular Calculator
 // Date: November 26, 2026
 
-// Format the calculator result
 function formatResult(operation, a, b, result) {
     const symbols = {
         add: "+",

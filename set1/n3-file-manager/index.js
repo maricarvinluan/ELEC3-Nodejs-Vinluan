@@ -1,22 +1,19 @@
-// Name: Maricar Vinluan
+// Name: Maricar Untalan Vinluan
 // Section: IV-BSIT A
 // Activity: N3 - File Manager
 // Date: November 26, 2026
 
-// Import built-in modules
 const fs = require("fs");
 const path = require("path");
 
-// Set the folder for text files
 const folder = path.join(__dirname, "files");
 
-// Get command-line arguments
 const command = process.argv[2];
 const filename = process.argv[3];
 const content = process.argv.slice(4).join(" ");
 
 console.log("=== FILE MANAGER ===");
-console.log("Name: Maricar Vinluan");
+console.log("Name: Maricar Untalan Vinluan");
 console.log("Section: IV-BSIT A");
 
 try {

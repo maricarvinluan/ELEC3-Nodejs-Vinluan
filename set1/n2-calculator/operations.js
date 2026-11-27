@@ -1,9 +1,8 @@
-// Name: Maricar Untlan Vinluan
+// Name: Maricar Untalan Vinluan
 // Section: IV-BSIT A
 // Activity: N2 - Modular Calculator
 // Date: November 26, 2026
 
-// Mathematical operations
 function add(a, b) {
     return a + b;
 }
@@ -27,7 +26,6 @@ function average(a, b) {
     return (a + b) / 2;
 }
 
-// Export functions
 module.exports = {
     add,
     subtract,

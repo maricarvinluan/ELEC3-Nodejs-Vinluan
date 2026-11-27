@@ -3,18 +3,16 @@
 // Activity: N2 - Modular Calculator
 // Date: November 26, 2026
 
-// Import custom and built-in modules
 const operations = require("./operations");
 const formatResult = require("./formatter");
 const path = require("path");
 
-// Get command-line arguments
 const operation = process.argv[2];
 const a = Number(process.argv[3]);
 const b = Number(process.argv[4]);
 
 console.log("=== MODULAR CALCULATOR ===");
-console.log("Name: Maricar Vinluan");
+console.log("Name: Maricar Untalan Vinluan");
 console.log("Section: IV-BSIT A");
 
 try {
